@@ -36,14 +36,16 @@ body {
 	font-size: 17px;
 }
 
+// Rodapé
+
 #footer {
   background-color: #2d2d30;
-  color: #f5f5f5;
+  color: black;
   padding: 32px;
 }
 
 #footer a {
-  color: #f5f5f5;
+  color: black;
 }
 
 #footer a:hover {
@@ -51,7 +53,7 @@ body {
   text-decoration: none;
 }
 
-#footer{
+#footer {
   position: absolute;
   bottom: 0;
   width: 100%;
