@@ -9,10 +9,18 @@ body {
     height: 60px;
 }
 
+.navbar.navbar-default.navbar-fixed-top a{
+	color: #777;
+}
+
+.navbar.navbar-default.navbar-fixed-top a:hover{
+	color: white;
+}
+
 .navbar a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     margin: 5px;
     text-decoration: none;
@@ -26,7 +34,7 @@ body {
 
 .navbar a.active {
     background-color: #5c0000;
-    color: black;
+    color: white;
 }
 
 .navbar input[type=text] {
@@ -38,6 +46,7 @@ body {
 	font-size: 21px;
 }
 
+
 #footer {
   background-color: #2d2d30;
   color: black;
@@ -45,12 +54,12 @@ body {
 }
 
 #footer a {
-  color: white;
+  color: #777;
   font-size: 21px;
 }
 
 #footer a:hover {
-  color: #777;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -60,6 +69,6 @@ body {
   width: 100%;
 }
 
-.nav-tabs{
-	color: #777;
+.nav.nav-tabs a{
+	color: black;
 }
