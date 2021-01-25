@@ -3,7 +3,7 @@
 var cloneMedia = $('.media').clone();
 var msg;
 
-$('#buttonSearch').on('click', function(){
+$('#lupa').on('click', function(){
 
 	var valorPesquisa = $('#pesquisa').val();
 	$('.panel-title').text('Resultados da Pesquisa para "' + valorPesquisa + '"');
