@@ -82,3 +82,21 @@ body {
 img[src*="playthemusicactual.png"]{
     margin-top: 18px;
     width: 4%;
+}
+
+#playTheMusicLogo {
+	float: left;
+	display: block;
+	width: 30px;
+	vertical-align: middle;
+
+}
+
+.navbar-brand {
+	vertical-align: middle;
+}
+
+#playTheMusicLogo a:hover {
+	width: 20px;
+	height: 20px;
+}
