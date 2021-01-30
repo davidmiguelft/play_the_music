@@ -11,7 +11,7 @@ body {
 	opacity: 0.9;
 	overflow: hidden;
 	background-color: #2d2d30;
-    height: 60px;
+  height: 60px;
 }
 
 .navbar.navbar-default.navbar-fixed-top a{
@@ -74,39 +74,27 @@ body {
 }
 
 #footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: 20px;
 }
 
 .nav.nav-tabs a{
 	color: black;
 }
 
-img[src*="playthemusicactual.png"]{
-    margin-top: -4px;
-    width: 4%;
+.carousel-caption {
+  text-shadow: 1px 1px 0 #000;
 }
 
-img[src*="playthemusicactualhover.png"]{
-    margin-top: -4px;
-    width: 4%;
+.item {
+  height: auto;
 }
 
-#playTheMusicLogo {
-    background-image: url('playthemusicactual.png');
-	float: left;
-    display: inline-block;
-	width: 30px;
+.h2 {
+  font-family: Helvetica;
 }
 
-#playTheMusicLogoHover{
-    background-image: url('playthemusicactualhover.png');
-    float: left;
-    display: inline-block;
-    width: 30px;
-}
-
-.navbar-brand {
-	vertical-align: middle;
+.carouselHome {
+  margin-top: 20px;
 }

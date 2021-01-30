@@ -28,3 +28,12 @@ $('#lupa').on('click', function(){
 		})
 	})
 });
+
+function showDetalhes() {
+  var x = document.getElementById("tabela-detalhes");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
