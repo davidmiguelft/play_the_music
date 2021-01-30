@@ -91,10 +91,10 @@ body {
   height: auto;
 }
 
-.h2 {
+#recomendados {
   font-family: Helvetica;
 }
 
-.carouselHome {
-  margin-top: 20px;
+#carouselHome {
+  padding: 20px;
 }
