@@ -110,10 +110,28 @@ html, body {
   padding: 20px;
 }
 
-.navbar-brand > #playTheMusicLogo {
-  background: url("imgs/playthemusicactual.png");
+img[src="playthemusicactual.png"]{
+    margin-top: -4px;
+    width: 4%;
 }
 
-.navbar-brand > #playTheMusicLogo a:hover {
-  background: url("imgs/playthemusicactualhover.png");
+img[src="playthemusicactualhover.png"]{
+    margin-top: -4px;
+    width: 4%;
+}
+
+#playTheMusicLogo {
+    background-image: url('playthemusicactual.png');
+    float: left;
+    display: block;
+    width: 30px;
+    vertical-align: middle;
+}
+
+#playTheMusicLogoHover{
+    background-image: url('playthemusicactualhover.png');
+    float: left;
+    display: none;
+    width: 30px;
+    vertical-align: middle;
 }
