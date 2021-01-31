@@ -70,6 +70,8 @@ html, body {
   height: 200px;
   margin-top: -200px;
   opacity: 1;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer a {
@@ -83,11 +85,6 @@ html, body {
   text-decoration: none;
 }
 
-#footer {
-  bottom: 0;
-  width: 100%;
-  margin-top: 1px;
-}
 
 .nav.nav-tabs a{
 	color: black;
@@ -106,7 +103,7 @@ html, body {
 }
 
 #carouselHome {
-  padding: 20px;
+  padding-top: -200px;
 }
 
 img[src="playthemusicactual.png"]{
@@ -133,4 +130,18 @@ img[src="playthemusicactualhover.png"]{
     display: none;
     width: 30px;
     vertical-align: middle;
+}
+
+#tabelaFavoritos{
+  padding: 2rem 0rem;
+}
+
+.btn{
+  height: 30px;
+  width: 40px;
+}
+
+
+ul li{
+  padding: 5px;
 }
