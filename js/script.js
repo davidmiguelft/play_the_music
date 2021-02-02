@@ -38,25 +38,6 @@ $('#lupa').on('click', function(){
 				$('#image', liMedia).attr('src', result.image[2]["#text"])
 			})
 		})
-
-
-
-
-
-		//$.each(msg.Search, function(index, result){
-		/*msg.results.trackmatches.track.forEach(function(result){
-
-			var liMedia = cloneMedia.clone();
-
-			$('a', liMedia).attr('href', result.url);
-			if(result.Poster != 'N/A')
-				$('#image', liMedia).attr("src", result.Poster);
-			$('.title', liMedia).text(result.Title);
-			$('.artista', liMedia).text(result.Year);
-			$('.album', liMedia).text(result.Type);
-
-			$('.media-list').append(liMedia);
-		})*/
 	})
 });
 
