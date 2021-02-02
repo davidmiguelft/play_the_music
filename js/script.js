@@ -12,6 +12,7 @@ $('#lupa').on('click', function(){
 		url: 'http://ws.audioscrobbler.com/2.0/?method=track.search&track=' + valorPesquisa + '&api_key=8ad8a891f9b7f2cefeb5ac37cd0487e9&format=json'
 	})
 	.done(function(msg){
+		//console.log('msg');
 		console.log(msg);
 
 		//$.each(msg.Search, function(index, result){

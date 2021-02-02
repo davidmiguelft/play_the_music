@@ -33,8 +33,8 @@
                     <li><a href="detalhes.html">Detalhes</a></li>
                     <li><a href="top.html">Top de Músicas</a></li>
                     <li><a href="favoritos.html">Favoritos</a></li>
-                    <li><input type="text" placeholder="Pesquisar...">
-                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    <li><input type="text" placeholder="Pesquisar..." id="pesquisa">
+                    <li><a href="#"><span class="glyphicon glyphicon-search" id="lupa"></span></a></li>
                 </ul>
             </div>
         </div>
@@ -43,6 +43,36 @@
     <!--Fim da Barra de Navegação-->
 
     <div id="conteudo">
+
+
+    <div class="boxPesquisa">
+    </div>
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Resultados da pesquisa</h3>         
+        </div>
+        <div class="panel-body">
+            <div class="media-group">
+                <ul class="media-list">
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="" class="thumbnail">
+                                <img class="media-object" id="image">
+                            </a>                        
+                        </div>
+                        <div class="media-body">
+                            <h4 class="title media-heading"></h4>
+                            <p>
+                                <span class="ano"></span>
+                                <span class="tipo"></span>
+                            </p>
+                        </div>                      
+                    </li>
+                </ul>
+            </div>          
+        </div>      
+    </div>
 
     <div class="container">
         <div class="row">
