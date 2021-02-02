@@ -4,10 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+
+
 
     <title>Detalhes</title>
 </head>
@@ -57,15 +62,13 @@
                 <ul class="media-list">
                     <li class="media">
                         <div class="media-left">
-                            <a href="" class="thumbnail">
                                 <img class="media-object" id="image">
-                            </a>                        
                         </div>
                         <div class="media-body">
                             <h4 class="title media-heading"></h4>
                             <p>
-                                <span class="ano"></span>
-                                <span class="tipo"></span>
+                                <span class="artista"></span>
+                                <span class="ouvintes"></span>
                             </p>
                         </div>                      
                     </li>
@@ -101,7 +104,7 @@
                     <li><a data-toggle="tab" href="#detalhes-album">Álbum</a></li>
                 </ul>
 
-                <div class="tab-content">
+                <div class="tab-content" id="details">
 
                     <div id="detalhes-musica" class="tab-pane fade in active">
                             <ul>
@@ -113,7 +116,7 @@
 
                     <div id="detalhes-artista" class="tab-pane fade">
                             <ul>
-                                <li></li>
+                                <li id="nomeArtista"><strong>Nome do Artista:</strong> </li>
                                 <li></li>
                                 <li></li>
                             </ul>
@@ -137,6 +140,8 @@
 
     </div>		
     
+
+    <div id="topartists"></div>
 
 
     </div>
