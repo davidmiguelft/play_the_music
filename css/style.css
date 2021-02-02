@@ -107,6 +107,10 @@ html, body {
   margin-bottom: 300px;
 }
 
+#carouselHome img{
+  max-height:600px;
+}
+
 img[src="playthemusicactual.png"]{
     margin-top: -4px;
     width: 4%;

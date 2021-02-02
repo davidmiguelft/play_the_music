@@ -1,3 +1,5 @@
+'use strict'
+
 var cloneMedia = $('.media').clone();
 
 $('#lupa').on('click', function(){
@@ -40,29 +42,3 @@ $('#lupa').on('click', function(){
 		})
 	})
 });
-
-
-
-
-		/*$.ajax({
-			method "GET",
-			url: "http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&limit=10country=portugal&api_key=8ad8a891f9b7f2cefeb5ac37cd0487e9&format=json"
-		})
-		,done(function(msg){
-			console.log(msg);
-
-			msg.results
-		})
-*/
-
-
-
-
-function showDetalhes() {
-  var x = document.getElementById("tabela-detalhes");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
