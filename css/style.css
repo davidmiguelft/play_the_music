@@ -148,3 +148,19 @@ img[src="playthemusicactualhover.png"]{
 ul li{
   padding: 5px;
 }
+
+
+#pesquisa {
+  margin: 0px;
+  width: 400px;
+  display: inline-block;
+}
+
+.panel-default {
+  margin: 20px;
+}
+
+.media-left {
+  width: 100px;
+  float: left;
+}
